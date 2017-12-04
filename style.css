@@ -1,0 +1,225 @@
+* {
+  outline: 0 !important;
+}
+
+body{
+   font-family: 'EB Garamond', serif; 
+}
+
+h1{
+  color: #333;
+  font-size: 60px;
+  font-weight: 500;
+  animation: btn 2s;
+}
+   
+        input {
+            width: 500px;
+            line-height: 50px;
+            border-radius: 8px;
+            margin: 10px 25px;
+            padding-left: 5px;
+            border: none;
+            padding-left: 20px;
+            box-sizing: border-box;
+            border: 2px solid #a25f89;
+            font-size: 22px;
+            font-weight: 400;
+            font-family: 'EB Garamond', serif; 
+            animation: lab1 2s;
+            
+        }
+        
+        
+            input:hover {
+                 box-shadow: inset 0 0px 2px 0 #030303;
+            }
+            
+            
+            
+        
+
+
+        
+            input[type="submit"] {
+                font-weight: 700;
+                font-size: 20px;
+                color: #fefefe;
+                height: 50px;
+                border: none;
+                border-radius: 8px;
+                background-color:#a25f89 ;
+                text-transform: uppercase;
+                cursor: pointer;
+                letter-spacing: 2px;
+                box-shadow: 0 4px 8px 0 #000;
+                width: 200px;
+                font-family: 'EB Garamond', serif; 
+                padding: 0;
+                animation: btn2 2s;
+            }
+            
+            input[type="email"] {
+                animation:lab2 2s ;
+            }
+            
+            
+            
+
+            
+button {
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #fff; 
+      background-color: #a25f89;
+      border: none; 
+      border-radius: 8px;
+      box-shadow: 0 4px 8px 0 #000;
+      padding: 17px 45px;
+      cursor: pointer;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin: 300px auto;
+      display: block;
+      font-family: 'EB Garamond', serif; 
+      animation: btn 2s;
+}                  
+            
+    section {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.6);
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        z-index: 1;
+        display: none;
+    }
+    
+        div {
+            width: 600px;
+            height: 350px;
+            background-color: #fff;
+            margin: 150px auto;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 20px;
+            position: relative;
+            padding-bottom: 30px;
+        }
+    
+            span {
+                box-shadow: 0 1px 8px 0 #000;
+                display: block;
+                width: 30px;
+                height: 30px;
+                background-color: #a25f89;
+                border-radius: 50%;
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                cursor: pointer;
+                
+            }
+            
+            span:hover{
+                animation: cup 0.5s;
+            }
+
+
+    
+        span:before, span:after {
+            position: absolute;
+            content: ' ';
+            height: 20px;
+            width: 3px;
+            background-color: #fff;
+            left: 14px;
+            top: 5px;
+        } 
+        
+        span:before {
+             transform: rotate(45deg);
+        }
+        span:after {
+             transform: rotate(-45deg);
+        }                        
+            
+
+
+@keyframes btn {
+    0% {
+        transform: translateY(-1500px);
+    }
+    
+    50% {
+        transform: translateY(70px);
+    }
+    
+    
+    100% {
+        transform: translateY(0);
+    }
+}     
+
+@keyframes lab1 {
+    0% {
+        transform: translateX(1500px);
+    }
+    
+    50% {
+        transform: translateX(-100px);
+    }
+    
+    
+    100% {
+        transform: translateX(0);
+    }
+} 
+
+@keyframes lab2 {
+    0% {
+        transform: translateX(-1500px);
+    }
+    
+    50% {
+        transform: translateX(100px);
+    }
+    
+    
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes btn2 {
+    0% {
+        transform: translateY(1500px);
+    }
+    
+    50% {
+        transform: translateY(-50px);
+    }
+    
+    
+    100% {
+        transform: translateY(0);
+    }
+}     
+
+@keyframes cup {
+    10%, 30%, 70% {
+        transform: translateX(-3px);
+    }
+    
+    20%, 50%, 90% {
+        transform: translateX(3px);
+    }
+    
+    
+    100% {
+        transform: translateX(0);
+    }
+}
+             
