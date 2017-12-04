@@ -1,3 +1,9 @@
+/**********************************************************************************************************************************************************
+************************************************************************БЕЗ СКРИПТА ******************************************************************************
+**************************************************************************************************************************************************************/
+
+
+
 * {
   outline: 0 !important;
 }
@@ -67,23 +73,7 @@ h1{
             
 
             
-button {
-      font-size: 20px;
-      text-transform: uppercase;
-      color: #fff; 
-      background-color: #a25f89;
-      border: none; 
-      border-radius: 8px;
-      box-shadow: 0 4px 8px 0 #000;
-      padding: 17px 45px;
-      cursor: pointer;
-      font-weight: 700;
-      letter-spacing: 1px;
-      margin: 300px auto;
-      display: block;
-      font-family: 'EB Garamond', serif; 
-      animation: btn 2s;
-}                  
+
             
     section {
         position: fixed;
@@ -93,7 +83,7 @@ button {
         bottom: 0;
         top: 0;
         z-index: 1;
-        display: none;
+        display: block;
     }
     
         div {
